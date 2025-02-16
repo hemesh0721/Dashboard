@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    padding:30px;
+    text-align: center;
+    color:#6adff1;
+    background-color: #03346E;
+    height:120px;
+
+}
+.header .img img{
+    border:0cap;
+    margin-left: 90%;
+    margin-top:-75px;
+    height:100px;
+    width: 100px;
+    border-radius: 80px;
+}
+.Objective{
+    border:1px solid none;
+    margin-left:10%;
+    margin-top:11%;
+    text-align: center;
+    height:300px;
+    border-radius: 15px;
+    width:35%;
+    font-size: medium;
+    line-height: 30px;
+    background-color: #6adff1;
+    padding:20px;  
+}
+
+.skills{
+    border:1px solid none;
+    margin-left: 55%;
+    margin-top:-19.5%;
+    height:300px;
+    text-align: center;
+    border-radius: 15px;
+    width:35%;
+    font-size: medium;
+    background-color: #6adff1;
+    padding:20px;
+    
+    
+}
+
+.skills:hover,.Objective:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.skills ul li{
+    padding:10px;
+}
+
+/*projects.html*/
+
+.project1{
+    border:1px solid none;
+    background-color:  #6adff1;
+    width: 25%;
+    height:400px;
+    border-radius:15px;
+    line-height: 25px;
+    margin-left:6%;
+    margin-top: 7%;
+    padding: 25PX;
+    text-align: center;
+}
+.project1,.project2, .project3 p{
+    font-size: medium;
+}
+.project2{
+    border:1px solid none;
+    background-color:  #6adff1;
+    width: 25%;
+    height:400px;
+    line-height: 25px;
+    border-radius:15px;
+    margin-left:37%;
+    margin-top:-26%;
+    padding: 25PX;
+    text-align: center;
+}
+.project3{
+    border:1px solid none;
+    background-color:  #6adff1;
+    width: 25%;
+    height:400px;
+    line-height: 25px;
+    border-radius:15px;
+    margin-top:-26%;
+    margin-left:68%;
+    padding: 25PX;
+    text-align: center;
+}
+
+.project1:hover,.project2:hover,.project3:hover{
+    box-shadow: 5px 5px 5px 5px grey;
+
+}
+
+/*certificates.html*/
+
+.certificate1{
+    border:1px solid none;
+    background-color:  #6adff1;
+    width: 25%;
+    height:100px;
+    border-radius:15px;
+    line-height: 25px;
+    margin-left:6%;
+    margin-top: 17%;
+    padding: 15PX;
+    text-align: center;
+    font-size: medium;
+}
+.certificate2{
+    border:1px solid none;
+    background-color:  #6adff1;
+    width: 25%;
+    height:100px;
+    line-height: 25px;
+    border-radius:15px;
+    margin-left:37%;
+    margin-top:-6.5%;
+    padding: 15PX;
+    text-align: center;
+    font-size: medium;
+}
+.certificate3{
+    border:1px solid none;
+    background-color:  #6adff1;
+    width: 25%;
+    height:100px;
+    line-height: 25px;
+    border-radius:15px;
+    margin-top:-6.5%;
+    margin-left:68%;
+    padding: 15PX;
+    text-align: center;
+    font-size: medium;
+}
+
+.certificate1:hover,.certificate2:hover,.certificate3:hover{
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+/*form*/
+
+.form{
+    border:2px solid none;
+    background-color: #6adff1;
+    width:40%;
+    margin:6%;
+    margin-left:30%;
+    line-height: 30px;
+    padding:20px;
+    font-family: sans-serif;
+    font-size: larger;
+    border-radius: 15px;
+    line-height: 30px;;
+}
+.form h2{
+    text-align: center;
+}
+.name,.Phone,.Email {
+    width:100%;
+    padding: 15px;
+    height:25px;
+    border-radius: 10px;
+}
+
+
+.form .Submit{
+    border:1px solid none;
+    width:100px;
+    padding-top:5px;
+    margin-left:40%;
+    height:30px;
+    border-radius: 10px;
+}
+.form .Submit:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+
+
